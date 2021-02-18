@@ -1,4 +1,6 @@
 // 📁 say.js
+export const data = [1,2,3];
+
 function sayHi(user) {
     alert(`Hello, ${user}!`);
   }

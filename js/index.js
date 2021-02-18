@@ -261,7 +261,9 @@
 
 /** Import and Export */
 
-import {sayHi, sayBye} from './example.js';
+import {sayHi, sayBye, data} from './example.js';
 
 sayHi('John'); // Hello, John!
 sayBye('John'); // Bye, John!
+
+console.log(data);
