@@ -261,11 +261,37 @@
 
 /** Import and Export */
 
-import {sayHi, sayBye, data} from './example.js';
+// import {sayHi, sayBye, data} from './example.js';
 
-sayHi('John'); // Hello, John!
-sayBye('John'); // Bye, John!
+// sayHi('John'); // Hello, John!
+// sayBye('John'); // Bye, John!
 
-alert(`${data}!`);
+// alert(`${data}!`);
 
-console.log(data);
+// console.log(data);
+
+// import { add } from './data.js';
+
+// let result = add(1+2);
+
+// console.log(result);
+
+
+/**Pad Start Pad End */
+// let example = 'Dylan';
+
+// console.log(example.padStart(10, 'a'));
+// console.log(example.padEnd(10, 'a'));
+
+// let example = 'YouTube.com/CodingTutorials360';
+
+// console.log(example.padStart(100));
+// console.log(example.padEnd(1));
+
+/**Classes */
+
+import { Animal } from './animal.js';
+
+let cat = new Animal();
+
+console.log(cat)
