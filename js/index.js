@@ -266,4 +266,4 @@ import {sayHi, sayBye, data} from './example.js';
 sayHi('John'); // Hello, John!
 sayBye('John'); // Bye, John!
 
-console.log('John');
+alert(`${data}!`);

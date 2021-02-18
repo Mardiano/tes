@@ -1,5 +1,5 @@
 // 📁 say.js
-export const data = [1,2,3];
+const data = [1,2,3];
 
 function sayHi(user) {
     alert(`Hello, ${user}!`);
@@ -9,4 +9,4 @@ function sayHi(user) {
     alert(`Bye, ${user}!`);
   }
   
-export {sayHi, sayBye}; // a list of exported variables
+export {sayHi, sayBye, data}; // a list of exported variables
