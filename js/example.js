@@ -9,4 +9,4 @@ function sayHi(user) {
     alert(`Bye, ${user}!`);
   }
   
-  export {sayHi, sayBye}; // a list of exported variables
+export {sayHi, sayBye}; // a list of exported variables
