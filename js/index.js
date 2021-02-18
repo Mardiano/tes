@@ -292,6 +292,6 @@
 
 import { Animal } from './animal.js';
 
-let cat = new Animal();
+let cat = new Animal('cat', 4);
 
 console.log(cat)
