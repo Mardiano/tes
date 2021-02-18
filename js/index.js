@@ -267,3 +267,5 @@ sayHi('John'); // Hello, John!
 sayBye('John'); // Bye, John!
 
 alert(`${data}!`);
+
+console.log(data);
